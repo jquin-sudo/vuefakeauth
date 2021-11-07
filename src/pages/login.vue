@@ -34,9 +34,9 @@ const { ready, start } = useTimeout(3000, { controls: true });
   >
     Logged in: {{ isAuthenticated }}
     <div
-      class="flex items-center justify-center overflow-hidden bg-gray-200 rounded-lg shadow-2xl "
+      class="flex items-center justify-center overflow-hidden bg-yellow-300 rounded-lg shadow-2xl "
     >
-      <img class="h-64" src="../assets/bglogin.png" alt="Hello BG" />
+      <img class="h-64" src="../assets/bglogin2.png" alt="Hello BG" />
       <form @submit.prevent="logginIn" class="flex flex-col p-4 space-y-4">
         <input
           type="text"
@@ -53,7 +53,7 @@ const { ready, start } = useTimeout(3000, { controls: true });
         <button
           type="submit"
           @submit.prevent="logginIn"
-          class="py-2 text-indigo-200 bg-indigo-600 rounded-lg"
+          class="py-2 text-white bg-indigo-600 rounded-lg"
         >
           Login
         </button>
